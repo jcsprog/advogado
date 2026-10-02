@@ -1,0 +1,54 @@
+
+Preencha os campos com dados reais que utiliza nos para que eu possa criar 
+            alguns ja coloquei qualquer coisa modifica ok
+PROCESSO.DBF
+Processo: número  :  0015733-13.2017.8.26.0001
+          fórum   :  Santana
+		    vara    : 1
+		    Nome    : Alimentos - fixação
+
+CTRLPGTO.DBF + LANCPGTO.DBF
+Pagamentos: Valor total :  2.126,00
+            entrada (sim ou não) : [S} {N}
+				R$ valor :   400,00
+				numero de parcelas : ate 99 parcelas - 10 x 
+				R$ valor da Parcela:  172,60
+				data de vencimentos das pc:  qtd de datas relacionada com qtd de parcelas - vencimento todo dia 10, início 10.10.2017 final 10.07.2018
+
+ANDAMENTO.DBF
+Andamentos: campos simples pra data : 29.09.2017 - conclusos para despacho
+                               tipo observações    : será preenchido se necessário
+            
+PRAZO.DBF
+Prazos: Data da publicação: 29.09.2017  K
+      K  campo pra colar a publicação: "Intime-se. Prazo para réplica 15 dias. Dra Gabriela Sequeira Kermessi OAB/SP: 362.184."
+		K  Data Fatal:24.10.2017
+		K  observações: será preenchido em caso de necessidade
+      K  Recurso: sim ou não - será preenchido em caso de necessidade (exemplo: sim)
+      K  data fatal ( exemplo 30.10.2017)
+        nome do recurso: ( exemplo Recurso de Apelação)
+
+Aí, pretendo puxar relatórios, mensal, semanal, de todos, exemplo: pagamentos do mês, da semana, prazos do mês, da semana, etc.
+
+Se isso ser certo vou chorar de emoção, pq to controlando no caderno, sistema da OAB é mto ruim! ??????
+
+Preciso saber o preço pra te falar como consigo pagar ta? Vou repassando pros clientes sem eles saberem estes custos pra melhorar o desempenho! 
+
+Não esquece dos usuários c senha, e servidor será aqui em casa! Quem mexer c sua senha atualiza no servidor pro próximo q for ver.
+                          
+Mto obrigada pai! 
+
+Relatórios >  Mensal  ==  Semanal  ==  Anual e Processo
+
+Data sera informada pelo usuario -> Inicial    e   Final
+
+Pagamentos :  Data de Pagamento das Parcelas de cada processo que irão vencer
+                        sistema ira informar também os q não foram pagos na data
+
+Andamento : Data dos andamentos do processo e observações
+
+Prazos        : Data Publicação
+                     Data Fatal
+                     Data Recuso
+
+Todos com os Dados do processo e observações

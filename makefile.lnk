@@ -1,0 +1,6 @@
+-LC:\BCC55\lib\obj;C:\BCC55\lib;C:\XHARBOUR\lib -Gn -M -m -s -Tpe -x -aa -Lc:\minigui\lib\lib +
+c0w32.obj obj\MENUDEMO.obj obj\JCSGET.obj, +
+menu.exe,, +
+minigui.lib lang.lib vm.lib rtl.lib rdd.lib macro.lib pp.lib dbfntx.lib dbfcdx.lib dbffpt.lib common.lib gtgui.lib gtnul.lib codepage.lib ct.lib tip.lib pcrepos.lib hsx.lib hbsix.lib import32.lib cw32.lib, +
+, +
+

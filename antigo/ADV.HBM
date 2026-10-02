@@ -1,0 +1,63 @@
+# ---------------------------
+# Nome do Executável
+# ---------------------------
+-oadvoga
+# ---------------------------
+# Bibliotecas
+# ---------------------------
+#-lhbprinter
+#-ltsbrowse
+#-lpropgrid
+#-lminigui
+#-lMiniPrint
+#-lDll
+#-lSocket
+#-lhbole
+#-lgtgui
+#-lhbsix
+#-ltsbrowse
+#-lpropgrid
+#-lgtwin
+-ltsbrowse 
+-lpropgrid 
+-lminigui 
+-lgtgui 
+-lhbprinter 
+# ---------------------------
+# Caminhos dos Includes
+# ---------------------------
+-incpath=c:\minigui\include;c:\minigui\harbour\include;
+# ---------------------------
+# Caminho das Libs da MiniGui
+# ---------------------------
+-Lc:\minigui\lib;c:\minigui\harbour\lib;
+# ---------------------------
+# Outros Parâmetros
+# ---------------------------
+-workdir=.\OBJ\
+-head=full
+-gtgui
+-n
+-nowarn
+-inc
+# ---------------------------
+# Prg(s) e Rc(s)
+# ---------------------------
+# Aqui você informa o nome de todos os seus PRG´S e resources
+advoga
+EMPRESA
+SENHA
+PROCESSO
+INDICE
+JCSBACK
+CLIENTE
+PAGAMENTO
+ANDAMENTO
+PRAZO
+USUARIOS
+RLTPROC
+# c:\MINIGUI\RESOURCES\hbprinter.rc 
+# c:\MINIGUI\RESOURCES\miniprint.rc 
+# ---------------------------
+# Fim
+# ---------------------------

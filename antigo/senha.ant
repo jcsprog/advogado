@@ -1,0 +1,114 @@
+#include "MiniGUI.ch"
+
+**** senhas -
+ 
+FUNCTION SENHA()
+
+         VSenha    := ""
+         VUsuario  := ""
+         Vemp      := "CIEC Vidros E Espelhos Convexos"
+         ADU       := [ ]
+         GG        := 0
+         
+         USE JCSARQ ALIAS JCS INDEX IDJCS2 SHARED NEW
+
+         DEFINE WINDOW Jcs_1 ;
+	        	    AT 0,12 ;
+                WIDTH 290  ;
+                HEIGHT 200 ;
+                ICON 'KEY.ICO';
+				    TITLE "  "+vemp ;
+				    MODAL ;
+					 BACKCOLOR BLUE 
+	
+                @ 10,08 LABEL Label_Usuario  ;
+                        VALUE 'Usuario'      ;
+                        WIDTH 60             ;
+                        HEIGHT 30            ;
+						      FONT "Arial" SIZE 12;
+					      	BACKCOLOR BLUE ;
+                        FONTCOLOR WHITE BOLD
+                        
+
+                @ 40,10 LABEL Label_Senha    ;
+                        VALUE 'Senha'        ;
+                        WIDTH 60             ;
+                        HEIGHT 30            ;
+					      	FONT "Arial" SIZE 12;
+                        BACKCOLOR BLUE ;
+                        FONTCOLOR WHITE BOLD
+
+                @ 13,70 TEXTBOX T_Usuario    ;
+                        OF Jcs_1       ;
+                        WIDTH 150            ;
+                        VALUE VUsuario       ;
+                        TOOLTIP 'Nome do Usuario' ;
+                        MAXLENGTH 30
+						
+				    @ 43,70 TEXTBOX  T_SENHA	;
+                        VALUE VSENHA	;          
+                        PASSWORD		;                         
+                        FONT "Arial" SIZE 09	;             
+                        TOOLTIP "Senha de Acesso";
+      			         MAXLENGTH 05		;
+			               UPPERCASE		;
+			               ON ENTER VERIFICA_SENHA()	
+
+                @ 090,20 BUTTON Btn_Salvar Of Jcs_1     ;
+                         CAPTION 'Verifica'             ;
+                         ACTION Verifica_Senha()       ;       
+                         WIDTH 100 HEIGHT 27         ;
+                         FONT "Arial" SIZE 09          ;
+                         TOOLTIP "Verifica Senha" ;
+                      FLAT
+
+                @ 090,150 BUTTON Btn_Cancelar Of Jcs_1 ;
+                         CAPTION '&Cancelar'		;
+       		             ACTION  EXIT PROGRAM ;					     
+                         WIDTH 100 HEIGHT 27		;
+		                   FONT "Arial" SIZE 09		;
+                         TOOLTIP "Cancela"	;
+		                FLAT
+
+               @ 140,18 LABEL T_JCS  ;
+                        VALUE 'JCSoft Sistemas -Cel:(11)7378-8895';
+                        WIDTH 230   ;
+                        HEIGHT 20   ;
+					      	FONT "Arial" SIZE 10;
+						      BACKCOLOR YELLOW
+								 
+
+	END WINDOW
+
+   CENTER WINDOW   Jcs_1
+   ACTIVATE WINDOW Jcs_1
+   
+	Return
+
+
+Function Verifica_Senha()
+       IF JCS->(DBSEEK(Jcs_1.T_Senha.Value))
+          IF UPPER(JCS->NOMEU) # UPPER(Jcs_1.T_Usuario.Value)
+             MsgInfo ("Usuario/Senha Nao Conferem!")
+             GG++
+             IF GG>3
+                MsgInfo ("Sistema CANCELADO !!!!!")
+                EXIT PROGRAM 
+	         ENDIF
+          ELSE
+             ADU:=JCS->ADM
+   			 SAIR_DO_JCS1()
+		    ENDIF
+       ELSE
+          gg++
+          MsgInfo ("Usuario/Senha Nao Conferem!","Verifique") 
+       ENDIF
+RETURN
+
+Function Sair_do_Jcs1()
+         Jcs_1.Release 
+RETURN NIL
+
+
+
+

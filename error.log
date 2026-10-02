@@ -1,0 +1,93 @@
+hbmk2: Warning: Ignoring explicitly specified core library directory:
+       c:\minigui\harbour\lib (in option
+       '-Lc:\minigui\lib;c:\minigui\harbour\lib;' in ADV.HBM:33)
+hbmk2: Warning: Deprecated compatibility option: '-nowarn' in ADV.HBM:41. Use
+       '-warn=no' instead.
+Turbo Incremental Link 5.00 Copyright (c) 1997, 2000 Borland
+Error: Unresolved external 'SwitchToThisWindow' referenced from C:\MINIGUI\LIB\MINIGUI.LIB|c_windowsAPI
+Error: Unresolved external 'PrivateExtractIconsA' referenced from C:\MINIGUI\LIB\MINIGUI.LIB|c_icon
+Warning: Public symbol '_HB_FUN_EMP' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\EMPRESA.OBJ
+Warning: Public symbol '_HB_FUN_ABRIREMP' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\EMPRESA.OBJ
+Warning: Public symbol '_HB_FUN_SALVAR_REGISTRO' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\EMPRESA.OBJ
+Warning: Public symbol '_HB_FUN_SAIR_DO_FORM2' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\EMPRESA.OBJ
+Warning: Public symbol '_HB_FUN_SENHA' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\SENHA.OBJ
+Warning: Public symbol '_HB_FUN_ABRIRSENHA' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\SENHA.OBJ
+Warning: Public symbol '_HB_FUN_VERIFICA_SENHA' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\SENHA.OBJ
+Warning: Public symbol '_HB_FUN_ABERTURA_ARQ' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\SENHA.OBJ
+Warning: Public symbol '_HB_FUN_ONABREA' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\SENHA.OBJ
+Warning: Public symbol '_HB_FUN_CDSPROCES' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\PROCESSO.OBJ
+Warning: Public symbol '_HB_FUN_DESACTIVPRC' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\PROCESSO.OBJ
+Warning: Public symbol '_HB_FUN_ACTIVARPRC' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\PROCESSO.OBJ
+Warning: Public symbol '_HB_FUN_CANCELARPRC' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\PROCESSO.OBJ
+Warning: Public symbol '_HB_FUN_ACEPTARPRC' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\PROCESSO.OBJ
+Warning: Public symbol '_HB_FUN_ACTUALIZARPRC' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\PROCESSO.OBJ
+Warning: Public symbol '_HB_FUN_BUSCARPRC' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\PROCESSO.OBJ
+Warning: Public symbol '_HB_FUN_NUEVOPRC' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\PROCESSO.OBJ
+Warning: Public symbol '_HB_FUN_ELIMINARPRC' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\PROCESSO.OBJ
+Warning: Public symbol '_HB_FUN_CHECA_PROC' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\PROCESSO.OBJ
+Warning: Public symbol '_HB_FUN_PEGACLI' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\PROCESSO.OBJ
+Warning: Public symbol '_HB_FUN_DADOSCLI' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\PROCESSO.OBJ
+Warning: Public symbol '_HB_FUN_REORGANIZA' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\INDICE.OBJ
+Warning: Public symbol '_HB_FUN_ABRINDICE' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\INDICE.OBJ
+Warning: Public symbol '_HB_FUN_FREORGANIZA' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\INDICE.OBJ
+Warning: Public symbol '_HB_FUN_ONSTART' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\INDICE.OBJ
+Warning: Public symbol '_HB_FUN_SLIDER_CHANGE' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\INDICE.OBJ
+Warning: Public symbol '_HB_FUN_BACKUPJCS' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\JCSBACK.OBJ
+Warning: Public symbol '_HB_FUN_ABRBKGSK' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\JCSBACK.OBJ
+Warning: Public symbol '_HB_FUN_FBACKUP' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\JCSBACK.OBJ
+Warning: Public symbol '_HB_FUN_ONBKSTART' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\JCSBACK.OBJ
+Warning: Public symbol '_HB_FUN_BK_SLIDER_CHANGE' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\JCSBACK.OBJ
+Warning: Public symbol '_HB_FUN_CLIE' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\CLIENTE.OBJ
+Warning: Public symbol '_HB_FUN_FILTRO_EMP' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\CLIENTE.OBJ
+Warning: Public symbol '_HB_FUN_FILTRO_FECHAR' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\CLIENTE.OBJ
+Warning: Public symbol '_HB_FUN_DESACTIVAREDICION' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\CLIENTE.OBJ
+Warning: Public symbol '_HB_FUN_ACTIVAREDICION' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\CLIENTE.OBJ
+Warning: Public symbol '_HB_FUN_CANCELAREDICION' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\CLIENTE.OBJ
+Warning: Public symbol '_HB_FUN_ACEPTAREDICION' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\CLIENTE.OBJ
+Warning: Public symbol '_HB_FUN_ACTUALIZAR' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\CLIENTE.OBJ
+Warning: Public symbol '_HB_FUN_BUSCARCLI' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\CLIENTE.OBJ
+Warning: Public symbol '_HB_FUN_NUEVO' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\CLIENTE.OBJ
+Warning: Public symbol '_HB_FUN_ELIMINAR' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\CLIENTE.OBJ
+Warning: Public symbol '_HB_FUN_IMPCLIENTE' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\CLIENTE.OBJ
+Warning: Public symbol '_HB_FUN_CHECA_CLI' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\CLIENTE.OBJ
+Warning: Public symbol '_HB_FUN_PGTOS' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\PAGAMENTO.OBJ
+Warning: Public symbol '_HB_FUN_ABRIRPGTO' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\PAGAMENTO.OBJ
+Warning: Public symbol '_HB_FUN_DESACTIVPGTO' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\PAGAMENTO.OBJ
+Warning: Public symbol '_HB_FUN_ACTIVARPGTO' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\PAGAMENTO.OBJ
+Warning: Public symbol '_HB_FUN_CANCELARPGTO' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\PAGAMENTO.OBJ
+Warning: Public symbol '_HB_FUN_ACEPTARPGTO' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\PAGAMENTO.OBJ
+Warning: Public symbol '_HB_FUN_ACTUALIZARPGTO' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\PAGAMENTO.OBJ
+Warning: Public symbol '_HB_FUN_NUEVOPGTO' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\PAGAMENTO.OBJ
+Warning: Public symbol '_HB_FUN_ELIMINARPGTO' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\PAGAMENTO.OBJ
+Warning: Public symbol '_HB_FUN_CTRPARCELAS' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\PAGAMENTO.OBJ
+Warning: Public symbol '_HB_FUN_ALTERALANCP' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\PAGAMENTO.OBJ
+Warning: Public symbol '_HB_FUN_ABRIR_LNC' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\PAGAMENTO.OBJ
+Warning: Public symbol '_HB_FUN_ATIVACAO_PGTO' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\PAGAMENTO.OBJ
+Warning: Public symbol '_HB_FUN_SALVA_PGTO' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\PAGAMENTO.OBJ
+Warning: Public symbol '_HB_FUN_PGTO_ELIMINAR' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\PAGAMENTO.OBJ
+Warning: Public symbol '_HB_FUN_ANDAME' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\ANDAMENTO.OBJ
+Warning: Public symbol '_HB_FUN_DESACTIVANADAM' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\ANDAMENTO.OBJ
+Warning: Public symbol '_HB_FUN_ACTIVARANADAM' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\ANDAMENTO.OBJ
+Warning: Public symbol '_HB_FUN_CANCELARANADAM' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\ANDAMENTO.OBJ
+Warning: Public symbol '_HB_FUN_ACEPTARANADAM' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\ANDAMENTO.OBJ
+Warning: Public symbol '_HB_FUN_ACTUALIZARANADAM' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\ANDAMENTO.OBJ
+Warning: Public symbol '_HB_FUN_NUEVOANADAM' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\ANDAMENTO.OBJ
+Warning: Public symbol '_HB_FUN_ELIMINARANADAM' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\ANDAMENTO.OBJ
+Warning: Public symbol '_HB_FUN_PRAZOS' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\PRAZO.OBJ
+Warning: Public symbol '_HB_FUN_DESACTIVPRAZO' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\PRAZO.OBJ
+Warning: Public symbol '_HB_FUN_ACTIVARPRAZO' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\PRAZO.OBJ
+Warning: Public symbol '_HB_FUN_CANCELARPRAZO' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\PRAZO.OBJ
+Warning: Public symbol '_HB_FUN_ACEPTARPRAZO' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\PRAZO.OBJ
+Warning: Public symbol '_HB_FUN_ACTUALIZARPRAZO' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\PRAZO.OBJ
+Warning: Public symbol '_HB_FUN_NUEVOPRAZO' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\PRAZO.OBJ
+Warning: Public symbol '_HB_FUN_ELIMINARPRAZO' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\PRAZO.OBJ
+Warning: Public symbol '_HB_FUN_USUARIOS' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\USUARIOS.OBJ
+Warning: Public symbol '_HB_FUN_OPENTABLES' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\USUARIOS.OBJ
+Warning: Public symbol '_HB_FUN_ALTUSU' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\USUARIOS.OBJ
+Warning: Public symbol '_HB_FUN_CPDADOS' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\USUARIOS.OBJ
+Warning: Public symbol '_HB_FUN_GRAVAUSUARIO' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\USUARIOS.OBJ
+Warning: Public symbol '_HB_FUN_TELA_USUARIO' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\USUARIOS.OBJ
+Warning: Public symbol '_HB_FUN_GRAVA_NOVASENHA' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\USUARIOS.OBJ
+Warning: Public symbol '_HB_FUN_CRIADADOSUSU' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\USUARIOS.OBJ
+Warning: Public symbol '_HB_FUN_GRID_BROWSE_1' defined in both module C:\ADVOGADO\OBJ\ADVOGA.OBJ and C:\ADVOGADO\OBJ\USUARIOS.OBJ
+hbmk2: Error: Running linker. 2
